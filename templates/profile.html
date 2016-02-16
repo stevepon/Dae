@@ -1,0 +1,6 @@
+{% extends "index.html" %}
+{% block body %}
+    {% if session.logged_in %}
+        Hey there {{username}}, welcome to your profile page!  You have {{cats}} cats.
+    {% endif %}
+{% endblock %}
