@@ -8,7 +8,10 @@
         {% else %}
             <a href="{{url_for('logout')}}">log out</a>
         {% endif %}
+        &nbsp &nbsp
+        <a href="{{url_for('enter_webpage')}}">webpage data tool</a>
     </div>
+    <br>
     {% block body %}{% endblock %}
 </div>
 

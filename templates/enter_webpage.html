@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+{% block body %}
+    <form action="{{ url_for('enter_webpage') }}", method="post">
+        <dl>
+            <dt>URL:
+            <dd><input type="text", name='url'></dd>
+            <dd><input type="submit"></dd>
+            </dt>
+        </dl>
+    </form>
+{% endblock %}

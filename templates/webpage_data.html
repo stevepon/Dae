@@ -1,0 +1,9 @@
+{% extends "index.html" %}
+{% block body %}
+You requested data about {{url}}:
+
+<p>This webpage has {{words}} words.</p>
+<p>It has {{forms}} forms and a total of {{fields}} input fields.</p>
+<p>There are {{external_links}} external links and {{links}} links overall.</p>
+
+{% endblock %}
